@@ -1,0 +1,13 @@
+{
+    "tokens": {
+        "discord": "your_token_here"
+    },
+    "targets": [
+        "user1",
+        "user2"
+    ],
+    "botmasters": [
+        "master1",
+        "master2"
+    ]
+}
