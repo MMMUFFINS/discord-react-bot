@@ -3,8 +3,20 @@
         "discord": "your_token_here"
     },
     "targets": [
-        "user1",
-        "user2"
+        {
+            "tag": "user1",
+            "reactions": [
+                ":emote1:",
+                ":emote2:"
+            ]
+        },
+        {
+            "tag": "user2",
+            "reactions": [
+                ":emote1:",
+                ":emote2:"
+            ]
+        },
     ],
     "botmasters": [
         "master1",
