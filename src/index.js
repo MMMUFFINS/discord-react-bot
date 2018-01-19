@@ -26,7 +26,10 @@ client.on('message', message => {
         if (message.author.tag === target.tag) {
             let emoji;
             for (let j = 0; j < target.reactions.length; j++) {
-                message.react(target.reactions[j]);
+                message.react(target.reactions[j])
+                .catch(err => {
+                    console.error(err)
+                });
             }
         }
     }
