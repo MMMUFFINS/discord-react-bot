@@ -4,22 +4,11 @@
     },
     "targets": [
         {
-            "tag": "user1",
+            "tag": "user1#xxxx",
             "reactions": [
-                ":emote1:",
-                ":emote2:"
-            ]
-        },
-        {
-            "tag": "user2",
-            "reactions": [
-                ":emote1:",
-                ":emote2:"
+                ":emote1:1234567890",
+                ":emote2:2345679901"
             ]
         }
-    ],
-    "botmasters": [
-        "master1",
-        "master2"
     ]
 }
